@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "async-hackathon"
+version = "0.1.0"
+description = "Hackathon to work with async concepts and applications."
+authors = ["Luuk van der Velden <luuk@codebeez.nl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.9"
+aiohttp = "^3.8.3"
+fastapi = "^0.85.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+aiomonitor = "^0.4.5"
+flake8 = "^5.0.4"
+pylint = "^2.15.4"
+ipdb = "^0.13.9"
+ipython = "^8.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
