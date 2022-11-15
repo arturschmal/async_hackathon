@@ -18,7 +18,7 @@ nest_asyncio.apply()
 ### Challenge option PyCharm
 Run your unit tests in debug mode within PyCharm and enable the nested event loop and evaluate and inspect some async functions
 
-### Challenge option VScode
+### Challenge option VSCode
 VSCode uses debugpy, which has seen recent code merged supporting awaiting in the debugger. This does not need a nested event loop as far as I understand.
 Run your unit tests in debug mode and evaluate async functions in the debug console.
 
